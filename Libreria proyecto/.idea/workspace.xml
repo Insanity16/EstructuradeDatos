@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f0b05e7d-4314-4aaf-aa1d-38f22536d220" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Evaluacion/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Evaluacion/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Evaluacion/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Evaluacion/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Evaluacion/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Evaluacion/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Evaluacion/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Evaluacion/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Evaluacion/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Evaluacion/Evaluacion.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Evaluacion/src/sample/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Evaluacion/src/sample/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Evaluacion/src/sample/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clasemath/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Clasemath/src/sample/Controller.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\saulb\OneDrive\Escritorio\EstructuradeDatos\Libreria proyecto\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1jyDVy2yy7JCDXukcdjHlif1YwI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="Libreria proyecto" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="Libreria proyecto" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f0b05e7d-4314-4aaf-aa1d-38f22536d220" name="Default Changelist" comment="" />
+      <created>1604767465963</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604767465963</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="427" y="278" key="FileChooserDialogImpl" timestamp="1604767849737">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="427" y="278" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1604767849737" />
+    <state x="343" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1604767787203">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="343" y="347" key="com.intellij.ide.util.TipDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1604767787203" />
+    <state x="29" y="143" key="new project wizard" timestamp="1604767893548">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="29" y="143" key="new project wizard/0.0.2560.1040@0.0.2560.1040" timestamp="1604767893548" />
+  </component>
+</project>
