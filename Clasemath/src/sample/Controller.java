@@ -62,7 +62,6 @@ public class Controller {
             }
 
             txtArreglo2.setText("");
-            imprimirArreglobidi(areglo2);
 
         }else{
             Alert alert=new Alert(Alert.AlertType.ERROR);
