@@ -1,0 +1,49 @@
+.fondo{
+ -fx-background-image: url("./img/img.jpg");
+ -fx-background-size: 100% 100%;
+
+}
+.buttonAceptar{
+ -fx-background-color: #373B44;
+ -fx-background-radius: 30px;
+ -fx-text-inner-color: white;
+}
+.button2{
+ -fx-background-color: #373B44;
+ -fx-background-radius: 40px;
+ -fx-text-inner-color: white;
+}
+.buttonGuardar{
+ -fx-background-color: #3F3572;
+ -fx-background-radius: 30px;
+S
+}
+.cabecera{
+-fx-background-color: #373B44;
+
+}
+.fondo_izquierdo{
+ -fx-background-color: #3D7B80;
+
+}
+.list{
+ -fx-background-color: ##3D7B80;
+ -fx-text-inner-color: white;
+}
+.tabla{
+ -fx-background-color: #3A5F6F;
+ -fx-text-inner-color: white;
+}
+.buttonFin{
+ -fx-background-color: #DAD5B7;
+ -fx-background-radius: 30px;
+ -fx-text-inner-color: black;
+}
+.buttonStatus{
+ -fx-background-color: #C2B79B;
+ -fx-background-radius: 30px;
+ -fx-text-inner-color: black;
+}
+.foto{
+ -fx-background-size: 100% 100%;
+}

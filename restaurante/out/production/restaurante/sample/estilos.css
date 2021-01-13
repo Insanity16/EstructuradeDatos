@@ -1,0 +1,13 @@
+.fondo{
+ -fx-background-image: url("./img/img.jpg");
+ -fx-background-size: 100% 100%;
+
+}
+.buttonAceptar{
+ -fx-background-color: #373B44;
+ -fx-background-radius: 30px;
+}
+.cabecera{
+-fx-background-color: #373B44;
+
+}

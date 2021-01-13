@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="380.0" prefWidth="650.0" stylesheets="@estilos.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControlerCobro">
+   <top>
+      <HBox prefHeight="70.0" prefWidth="600.0" styleClass="cabecera" BorderPane.alignment="CENTER">
+         <children>
+            <Label text="Music store" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="20.0" top="20.0" />
+               </HBox.margin>
+            </Label>
+            <Pane prefHeight="200.0" prefWidth="200.0" HBox.hgrow="ALWAYS" />
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/usuario.png" />
+               </image>
+               <HBox.margin>
+                  <Insets right="10.0" top="8.0" />
+               </HBox.margin>
+            </ImageView>
+            <Label text="Saul Rodriguez" textFill="WHITE">
+               <HBox.margin>
+                  <Insets right="10.0" top="25.0" />
+               </HBox.margin>
+            </Label>
+         </children>
+      </HBox>
+   </top>
+   <center>
+      <VBox minHeight="-Infinity" prefHeight="200.0" prefWidth="100.0" styleClass="fondo_izquierdo" BorderPane.alignment="CENTER">
+         <children>
+            <TableView fx:id="Tabla" prefHeight="167.0" prefWidth="410.0" styleClass="list">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </VBox.margin></TableView>
+            <Label styleClass="list" text="Proximo Pedido">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+            </Label>
+            <Label text="Nombre">
+               <VBox.margin>
+                  <Insets left="10.0" />
+               </VBox.margin>
+            </Label>
+            <Label fx:id="nombrepedido">
+               <VBox.margin>
+                  <Insets left="60.0" top="-17.0" />
+               </VBox.margin>
+            </Label>
+            <Button mnemonicParsing="false" onAction="#finalizar" styleClass="buttonFin" text="Finalizar">
+               <VBox.margin>
+                  <Insets left="320.0" top="-25.0" />
+               </VBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#Status" prefWidth="400.0" styleClass="buttonStatus" text="Status de Pedidos">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+   </center>
+   <right>
+      <VBox minWidth="200.0" prefWidth="260.0" styleClass="fondo_izquierdo" BorderPane.alignment="CENTER">
+         <padding>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </padding>
+         <children>
+            <ImageView fx:id="immm" fitHeight="80.0" fitWidth="80.0" pickOnBounds="true" styleClass="foto">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <viewport>
+                  <Rectangle2D />
+               </viewport>
+            </ImageView>
+            <ListView fx:id="listview_instrumentos" maxHeight="80.0" maxWidth="150.0" prefHeight="80.0" prefWidth="150.0" styleClass="list">
+               <VBox.margin>
+                  <Insets left="90.0" top="-80.0" />
+               </VBox.margin>
+            </ListView>
+            <Label prefHeight="10.0" prefWidth="60.0" text="Cantidad:">
+               <VBox.margin>
+                  <Insets top="30.0" />
+               </VBox.margin>
+            </Label>
+            <TextField fx:id="txtCan">
+               <VBox.margin>
+                  <Insets left="60.0" top="-20.0" />
+               </VBox.margin>
+            </TextField>
+            <Button mnemonicParsing="false" onAction="#Insertarpedido" prefHeight="25.0" prefWidth="100.0" styleClass="buttonAceptar" text="Insertar" textFill="WHITE">
+               <VBox.margin>
+                  <Insets left="55.0" top="10.0" />
+               </VBox.margin>
+            </Button>
+            <Label prefHeight="10.0" prefWidth="60.0" text="Nombre:">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </Label>
+            <TextField fx:id="txtnombre" />
+            <Button mnemonicParsing="false" onAction="#Guardarpedido" prefHeight="25.0" prefWidth="220.0" styleClass="buttonGuardar" text="Insertar" textFill="WHITE">
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+   </right>
+</BorderPane>
