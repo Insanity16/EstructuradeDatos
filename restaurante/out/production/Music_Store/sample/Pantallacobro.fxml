@@ -15,7 +15,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="380.0" prefWidth="650.0" stylesheets="@estilos.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControlerCobro">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="420.0" prefWidth="650.0" stylesheets="@estilos.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControlerCobro">
    <top>
       <HBox prefHeight="70.0" prefWidth="600.0" styleClass="cabecera" BorderPane.alignment="CENTER">
          <children>
@@ -36,7 +36,7 @@
                   <Insets right="10.0" top="8.0" />
                </HBox.margin>
             </ImageView>
-            <Label text="Saul Rodriguez" textFill="WHITE">
+            <Label fx:id="txtnombreusuario" text="Saul Rodriguez" textFill="WHITE">
                <HBox.margin>
                   <Insets right="10.0" top="25.0" />
                </HBox.margin>
@@ -61,7 +61,7 @@
             </Label>
             <Label text="Nombre">
                <VBox.margin>
-                  <Insets left="10.0" />
+                  <Insets left="10.0" top="20.0" />
                </VBox.margin>
             </Label>
             <Label fx:id="nombrepedido">
@@ -76,7 +76,7 @@
             </Button>
             <Button mnemonicParsing="false" onAction="#Status" prefWidth="400.0" styleClass="buttonStatus" text="Status de Pedidos">
                <VBox.margin>
-                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="20.0" />
                </VBox.margin>
             </Button>
          </children>
@@ -116,17 +116,43 @@
                   <Insets left="55.0" top="10.0" />
                </VBox.margin>
             </Button>
+            <Button mnemonicParsing="false" onAction="#Ordenarxprecio" styleClass="buttonAceptar" text="Ordenar x precio" textFill="WHITE">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#ordenarxnombre" prefWidth="120.0" styleClass="buttonAceptar" text="Odenar x nombre" textFill="WHITE">
+               <opaqueInsets>
+                  <Insets top="-20.0" />
+               </opaqueInsets>
+               <VBox.margin>
+                  <Insets left="110.0" top="-25.0" />
+               </VBox.margin>
+            </Button>
             <Label prefHeight="10.0" prefWidth="60.0" text="Nombre:">
                <VBox.margin>
                   <Insets top="10.0" />
                </VBox.margin>
             </Label>
             <TextField fx:id="txtnombre" />
-            <Button mnemonicParsing="false" onAction="#Guardarpedido" prefHeight="25.0" prefWidth="220.0" styleClass="buttonGuardar" text="Insertar" textFill="WHITE">
+            <Button mnemonicParsing="false" onAction="#Guardarpedido" prefHeight="20.0" prefWidth="220.0" styleClass="buttonGuardar" text="Insertar" textFill="WHITE">
                <VBox.margin>
-                  <Insets top="20.0" />
+                  <Insets top="5.0" />
                </VBox.margin>
             </Button>
+            <Button mnemonicParsing="false" onAction="#Buscarxprecio" prefWidth="110.0" styleClass="buttonGuardar" text="Buscar x precio" textFill="WHITE">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Button>
+            <TextField fx:id="txtprecio">
+               <VBox.margin>
+                  <Insets left="120.0" right="20.0" top="-25.0" />
+               </VBox.margin>
+            </TextField>
          </children>
       </VBox>
    </right>
